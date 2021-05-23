@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Teclado Virtual</title>
+</head>
+<body>
+
+  
+    <div id="text"></div>
+
+
+   
+
+    <div id="teclado">
+            
+            <table>
+                <tr>
+                <td> <button onclick="inserir(' ')">"</button> </td>
+                <td> <button onclick="inserir('1')">1</button> </td>
+                <td> <button onclick="inserir('2')">2</button> </td>
+                <td> <button onclick="inserir('3')">3</button> </td>
+                <td> <button onclick="inserir('4')">4</button> </td>
+                <td> <button onclick="inserir('5')">5</button> </td>
+                <td> <button onclick="inserir('6')">6</button> </td>
+                <td> <button onclick="inserir('7')">7</button> </td>
+                <td> <button onclick="inserir('8')">8</button> </td>
+                <td> <button onclick="inserir('9')">9</button> </td>
+                <td> <button onclick="inserir('0')">0</button> </td>
+                <td> <button onclick="inserir('-')">-</button> </td>
+                <td> <button onclick="back()"><=</button> </td>
+            </tr>
+            
+            <tr>
+                <td><button onclick="inserir(' ')">Tab</button></td> 
+                <td><button onclick="inserir('q')">Q</button></td> 
+                <td><button onclick="inserir('w')">W</button></td> 
+                <td><button onclick="inserir('e')">E</button></td>
+                <td><button onclick="inserir('r')">R</button></td>
+                <td><button onclick="inserir('t')">T</button></td>
+                <td><button onclick="inserir('y')">Y</button></td>
+                <td><button onclick="inserir('u')">U</button></td>
+                <td><button onclick="inserir('i')">I</button></td>
+                <td><button onclick="inserir('o')">O</button></td>
+                <td><button onclick="inserir('p')">P</button></td>
+                <td><button onclick="inserir('+')">+</button></td>
+                <td rowspan="3"><button id="enter" onclick="inserir(' ')">Enter</button></td> 
+            </tr>
+            
+            <tr>
+                <td><button id="Caps">Capslock</button></td> 
+                <td><button onclick="inserir('a')">A</button></td> 
+                <td><button onclick="inserir('s')">S</button></td> 
+                <td><button onclick="inserir('d')">D</button></td>
+                <td><button onclick="inserir('f')">F</button></td>
+                <td><button onclick="inserir('g')">G</button></td>
+                <td><button onclick="inserir('h')">H</button></td>
+                <td><button onclick="inserir('j')">J</button></td>
+                <td><button onclick="inserir('k')">K</button></td>
+                <td><button onclick="inserir('l')">L</button></td>
+                <td><button onclick="inserir('ç')">Ç</button></td>
+                <td><button onclick="inserir('!')">!</button></td>
+            </tr>
+            
+            <tr>
+                <td><button>Shift</button></td> 
+                <td><button onclick="inserir('|')">\</button></td> 
+                <td><button onclick="inserir('z')">Z</button></td> 
+                <td><button onclick="inserir('x')">X</button></td> 
+                <td><button onclick="inserir('c')">C</button></td>
+                <td><button onclick="inserir('v')">V</button></td>
+                <td><button onclick="inserir('b')">B</button></td>
+                <td><button onclick="inserir('n')">N</button></td>
+                <td><button onclick="inserir('m')">M</button></td>
+                <td><button onclick="inserir(',')">,</button></td>
+                <td><button onclick="inserir('.')">.</button></td>
+                <td><button onclick="inserir(';')">;</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="inserir(' ')">Ctrl</button></td> 
+                <td><button onclick="inserir(' ')">Fn</button></td> 
+                <td><button onclick="inserir(' ')">W</button></td> 
+                <td><button onclick="inserir(' ')">Alt</button></td>
+                <td colspan="5" onclick="space('')"><button> Space </button></td>
+                <td><button onclick="inserir(' ')">Alt</button></td>
+                <td><button onclick="inserir(' ')">/</button></td>
+                <td><button onclick="inserir(' ')">?</button></td>
+                <td><button id='rgb'>Ctrl</button></td>
+            </tr>
+            
+        </table>
+        
+    </div>
+   
+    <div id="cores">
+
+        <div class="box"id="vermelho" onclick="ChangeColor('red')">
+        </div>
+        
+        <div class="box" id="verde" onclick="ChangeColor('rgb(9, 247, 9)')">
+        </div>
+    
+        <div class="box"id="azul" onclick="ChangeColor('blue')">
+        </div>
+
+        
+        
+</div>
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>

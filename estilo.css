@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(54, 54, 54);
+}
+#text{
+    width: 80%;
+    height: 80px;
+    border: 1px solid black;
+    margin: 50px auto;
+    font-size: 25px;
+    background-color: white;
+    border: 5px solid black;
+}
+#teclado{
+    background-color: rgb(31, 30, 30);
+    border: 5px solid rgb(3, 3, 3);
+    margin: auto;
+    width: 485px;
+
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: blue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(168, 168, 168);
+}
+#enter{
+    height: 79px;
+}
+#cores{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 2em 2em;
+   border: 2px solid black;
+}
+.box:hover{
+    transform: translateY(-5px);
+}
+#vermelho{
+    background-color: red;
+
+}
+#verde{
+    background-color: rgb(9, 247, 9);
+}
+#azul{
+    background-color: blue;
+}
+#RGB{
+    background-color: black;
+}
